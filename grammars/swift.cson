@@ -7,7 +7,7 @@
 'patterns': [
   {
     'name': 'keyword.declaration.swift'
-    'match': '\\b(class|deinit|enum|extension|final|import|init|internal|let|private|protocol|public|static|struct|subscript|typealias|var)\\b'
+    'match': '(^|\\s|\\b)(class|deinit|enum|extension|final|import|init|internal|let|private|protocol|public|static|struct|subscript|typealias|var|@IBAction|@IBOutlet|@objc)(\\s|\\b)'
   }
   {
     'name': 'keyword.statement.swift'
