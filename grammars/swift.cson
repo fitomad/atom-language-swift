@@ -77,7 +77,7 @@
   }
   {
     'name': 'keyword.reserved.swift'
-    'match': '\\b(associativity|didSet|get|infix|inout|left|mutating|nonmutating|operator|override|postfix|precedence|prefix|right|set|unowned|unowned\(safe\)|unowned\(unsafe\)|weak|willSet)\\b'
+    'match': '\\b(associativity|didSet|get|infix|inout|left|mutating|nonmutating|operator|override|postfix|precedence|prefix|right|set|unowned|unowned\(safe\)|unowned\(unsafe\)|weak|lazy|willSet)\\b'
   }
   {
     'name': 'constant.language.swift'
